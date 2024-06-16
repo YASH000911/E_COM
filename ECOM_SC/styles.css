@@ -1,0 +1,190 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon img {
+    height: 24px;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.featured-products, .product-collections {
+    text-align: center;
+    padding: 20px;
+}
+
+.product {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    color: #000;
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Login and Signup Form Styles */
+.login-form, .signup-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form h1, .signup-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form label, .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input, .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.product-details img {
+    width: 300px;
+    height: auto;
+}
+
+.product-info {
+    max-width: 400px;
+}
+
+.cart-items {
+    padding: 20px;
+}
+
+.cart-total {
+    text-align: center;
+    padding: 20px;
+}
